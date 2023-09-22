@@ -1,0 +1,7 @@
+com\springproj\chatter\chat\ChatMessage$ChatMessageBuilder.class
+com\springproj\chatter\config\WebSocketConfig.class
+com\springproj\chatter\ChatterApplication.class
+com\springproj\chatter\chat\ChatController.class
+com\springproj\chatter\config\WebSocketEventListener.class
+com\springproj\chatter\chat\MessageType.class
+com\springproj\chatter\chat\ChatMessage.class

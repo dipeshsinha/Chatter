@@ -1,0 +1,105 @@
+body {
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style-type: none;
+}
+.hidden{
+    display: none;
+}
+
+#Username-Page{
+    
+    height: 100%;
+}
+
+.username-page-container{
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 1.25rem;
+}
+
+#userNameForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;;
+}
+
+.usernameInput {
+    border-radius: 1.8em;
+    font-size: 1.25rem;
+    padding: 0.8em;
+    border: 0.25em black solid;
+}
+
+.username-submit {
+    display: none;
+}
+
+#chat-page {
+    height: 100%;
+}
+
+.chat-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#messageArea {
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+#messageForm {
+    position: absolute;
+    bottom: 0;
+}
+.chat-message {
+
+}
+.event-message p {
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+}
+.event-message, .chat-message {
+    list-style-type: none;
+}
+.avatar-element {
+    position: relative;
+    border: 2px black solid;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    background-color: aqua;
+}
+.chat-message p {
+    position: relative;
+    left: 20px;
+    font-size: 1.5rem;
+}
+.chat-message span {
+    position: relative;
+    left: 20px;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+.fchatInput {
+    font-size: 1.25rem;
+    padding: 0.8em;
+    border: 1px black solid;
+    width: 80vw;
+}
+.self-message {
+    
+}
